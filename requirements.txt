@@ -1,0 +1,11 @@
+# Gestion Spa — dependances Python
+# Python 3.10+ recommande (Windows : installer Python avec Tcl/Tk pour tkinter)
+
+# --- Runtime ---
+# L'application utilise la bibliotheque standard :
+# tkinter, sqlite3, hashlib, datetime, os, shutil, re, calendar, textwrap
+# Aucun package tiers n'est obligatoire pour lancer main.py
+
+# --- Tests (optionnel) ---
+pytest==8.3.3
+Faker==18.11.0
